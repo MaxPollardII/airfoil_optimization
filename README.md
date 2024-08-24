@@ -43,7 +43,7 @@ For example, if all that is important is maximum coefficient of lift, the scorin
 If you want ratios between these values, for example the ratio of lift to parasitic drag, use the function element_wise_operation(list1, list2, operator (this must be in quotes))
 element_wise_operation performs the operation between each corresponding element of the two lists and returns the result
 For example, if list_1 is [1,2,3] and list_2 is [4,1,2], and the operator is '*', the result of 
-element_wise_operation(list_1, list_2, "/") would be [4, 2, 6]
+element_wise_operation(list_1, list_2, "*") would be [4, 2, 6]
 
 Note: The operator parameter must be in quotes, i.e. "+", "-", "*", "/", "^" or it will not be evaluated
 For the previous example of the ratio of coefficient of lift to coefficient of parasitic drag, the expression would read
